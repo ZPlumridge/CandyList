@@ -31,8 +31,7 @@ import Foundation
 struct Candy: Decodable {
   let name: String
   let category: Category
-  let specialty: Array<Any>
-  let insurance: Array<Any>
+
   
   enum Category: Decodable {
     case all
